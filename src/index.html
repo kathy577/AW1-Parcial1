@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial AW1 - Tema 1</title>
+
+    <!--
+    Se vincula una hoja de estilos externa para separar
+    estructura (HTML) y presentación (CSS).
+    -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!--
+    Se utiliza header porque representa el encabezado semántico
+    principal del documento.
+    -->
+    <header>
+        <h1>Arquitectura Semántica HTML5</h1>
+    </header>
+
+    <!--
+    Se utiliza nav para agrupar enlaces de navegación.
+    -->
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <!--
+    Main contiene el contenido principal y único del documento.
+    -->
+    <main>
+
+        <!--
+        Section representa una agrupación temática relacionada.
+        -->
+        <section>
+
+            <h2>Etiquetas Semánticas</h2>
+
+            <!--
+            Article contiene contenido independiente que podría
+            comprenderse fuera del contexto de la página.
+            -->
+            <article>
+
+                <h3>Beneficios</h3>
+
+                <p>
+                    El uso de etiquetas semánticas mejora la
+                    accesibilidad y favorece el SEO.
+                </p>
+
+            </article>
+
+        </section>
+
+        <section>
+
+            <h2>Comparación del Modelo de Caja</h2>
+
+            <div class="content-box">
+                Caja con content-box
+            </div>
+
+            <div class="border-box">
+                Caja con border-box
+            </div>
+
+        </section>
+
+    </main>
+
+    <!--
+    Footer representa el pie del documento e incluye
+    información complementaria.
+    -->
+    <footer>
+        <p>Aplicaciones Web I - Parcial 1</p>
+    </footer>
+
+</body>
+
+</html>
